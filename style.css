@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+:focus {
+    color: rgb(247, 0, 255);
+    border: solid 3px rgb(18, 156, 6);
+    outline: none;
+  }
+
+  li {
+      text-decoration: none;
+      list-style: none;
+  }
+
+  nav li {
+      padding: 5%;
+      border: navy 1px solid;
+  }
+
+  section, footer, header {
+      border: navy 1px solid;
+      padding: 5%;
+  }
