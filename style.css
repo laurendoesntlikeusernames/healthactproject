@@ -1,16 +1,25 @@
+html {
+    font-family: serif;
+    font-size: 1.5em;
+}
+
 body {
     background-color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+li {
+    list-style: none;
 }
 
 :focus {
     color: rgb(247, 0, 255);
     border: solid 3px rgb(18, 156, 6);
     outline: none;
-  }
-
-  li {
-      text-decoration: none;
-      list-style: none;
   }
 
   nav li {
